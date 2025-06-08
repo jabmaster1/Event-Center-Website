@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Center: Contact Us</title>
+    <link rel="stylesheet" href="CSS/Event-center-contact-us.css">
+</head>
+<body>
+    <header>
+            <nav>
+                <ul class="nav-container">
+                    <div><li><a href="Event-center-homepage.html">Home</a></li></div>                
+                    <div><li><a href="Event-center-events.html">Events</a></li></div>                
+                    <div><li><a href="Event-center-menu.html">Menu</a></li></div>            
+                    <div><li><a href="Event-center-location.html">Location</a></li></div>                
+                    <div><li><a href="#contact-us">Contact Us</a></li></div>
+                </ul>
+            </nav>
+            <h1>For all comments, questions or concerns fill out this form!</h1>
+    </header>
+    <Main>
+        <form action="/submit" method="post">
+            <div class="container">
+                <div><input type="text" name="name" id="name" placeholder="Enter your name" required></div>
+                <br>
+                <div><input type="email" name="email" id="email" placeholder="jane_doe@gmail.com" required></div>
+                <br>
+                <div><textarea name="comments" id="comments" rows="5" cols="50" required placeholder="Questions, comments and concerns go here!"></textarea></div>
+                <br>
+                <button type="submit">Submit!</button>
+            </div>
+        </form>
+    </Main>
+    <footer>
+        <h2>We'll get back to you through email at our earliest availibility.</h2>
+    </footer>
+</body>
+</html>

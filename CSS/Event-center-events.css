@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    background-color: rgb(82, 122, 241);
+}
+.nav-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: navy;
+    padding: 15px;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+h1 p {
+    font-family: cursive;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, p {
+    font-family: cursive;
+    color: navy;
+    margin-left: 8px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.text {
+    font-size: 18px;
+}
+
+img {
+    width: 350px;
+    height: 280px;
+    border-radius: 15%;
+}

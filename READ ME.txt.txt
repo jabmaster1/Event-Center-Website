@@ -1,0 +1,28 @@
+I created a more broad form of event center that would cater to many different even styles. I wanted to style it like something you'd see from my hometown of Kokomo, Indiana so it has a mom and pop feel to its CSS. Even though everyone dislikes it on the internet, mom and pop shops/small businesses will always gravitate towards campy designs with family friendly comic sans and red, white and blue motifs. 
+
+At the top of every page is a simple navigation bar with white text that turns on hover. Paired with the blue background that keeps with the patriotic feel of most small business in Kokomo. The entire page is designed to be scale-able and look decent on screens as small as 300px. 
+
+The background colors are all sampled from the Indiana state flag and are toned down to be more pleasant to look at.
+
+Home Page: 
+1.) Banner image is present.
+2.) Welcome message is present.
+3.) About us section is present.
+4.) Added a "What's New?" section with links and images to other webpages.
+
+Events Page:
+1.) Semantic elements in the form of sections were added.
+2.) All three events were created, described, dated and timed. Included images of events as well.
+
+Menu Page: 
+1.) Created 3 tables with different selection types. Since it's an event center to host anything, I figured adding the ability to choose some options for catering would make more sense than a flat menu.
+2.) Divided the tables with flex boxes and dotted borders to make them distinct.
+
+Locations Page:
+1.) I cheated on this one a bit, but I took a screen shot of a local business that exists and used its google maps page as the entire page design.
+2.) I added a link to the image that links to the actual google maps. I wasn't able to figure out how to integrate the maps into a html page.
+
+Contact Us Page: 
+1.) Added a name input, an email input and a text area to the form.
+2.) Added the "required" validation to all inputs.
+3.) Added a submit button with a red hover color.
