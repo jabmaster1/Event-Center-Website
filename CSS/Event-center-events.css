@@ -55,3 +55,12 @@ img {
     height: 280px;
     border-radius: 15%;
 }
+
+@media screen and (max-width: 600px) {
+    div {
+        flex-direction: column;
+    }
+    img {
+        max-width: fit-content;
+    }
+}

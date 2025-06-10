@@ -29,3 +29,10 @@ a:hover {
     display: flex;
     justify-content: space-evenly
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+}
